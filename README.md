@@ -185,16 +185,10 @@ git add .
 git commit -m "updated project"
 git push origin main
 👨‍💻 Author
-Developed by Mahanthesh
+Developed by Mahanthesh S
 Full Stack Banking System Project using React + Spring Boot + PostgreSQL
 
 ✅ License
 This project is for learning and educational purposes.
 
 
----
-
-If you want, I can also:
-✅ add screenshots section in README  
-✅ create Postman collection file and mention import steps  
-✅ include setup for mail sending (future feature)
