@@ -12,6 +12,7 @@ export default function SendOtp() {
         try {
             const res = await API.post("/api/auth/send-otp", { mobile });
             localStorage.setItem("mobile", mobile);
+            //Security Bug: OTP is visible to user during login instead of being masked #3
             setMsg(`OTP sent (mock): ${res.data.otp}`);
             setTimeout(() => navigate("/verify-otp"), 700);
         } catch {
